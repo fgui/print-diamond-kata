@@ -12,4 +12,4 @@ https://github.com/Eskatrem/diamond-kata
 Manuel wrote a nice post about Samuel's way to solve the problem:
 http://garajeando.blogspot.com.es/2015/08/kata-print-diamond-in-clojure.html
 
-This was 100% repl driven, no test :(
+100% repl driven, no test :(
