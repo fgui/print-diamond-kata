@@ -12,13 +12,13 @@
 
 (defn diamond [s]
   (let [abc (A-to-str s)
-        l (mirror (reverse abc))]
-    (mirror (map #(keep-char l %) abc))))
+        cbabc (mirror (reverse abc))]
+    (mirror (map #(keep-char cbabc %) abc))))
 
 (defn print-diamond [s]
-  (doseq [l (diamond s)]
-    (println (apply str l))))
+  (doseq [line (diamond s)]
+    (println (apply str line))))
 
 (defn -main
   [& args]
-  (println-diamond (first args)))
+  (print-diamond (first args)))
